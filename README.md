@@ -11,3 +11,11 @@ A basic text editor allowing you to type anywhere on the screen, with a movable 
 - the 1 key restarts the program - (will be changed to esc when I figure out how to do that).
 - Capital letters A, B, C, and D all acts the same as using the arrow keys - (will be fixed).
 - Uses "util.h" a header file I made myself!
+
+**Cookie Clicker:**\
+A basic text based cookie clicker esc, game.
+- When you run it for the first time, it prompts you for a "Bakery Name".
+- Because it uses a save.json that it places inside the %appdata% folder, it saves the program's data in real time, so you can load it back up with your saved data!
+- Use space or left mouse button for clicking to earn money
+- 1-6 number keys to purchase the different items for sale.
+- Press q to quit the program
