@@ -13,7 +13,9 @@ A basic text editor allowing you to type anywhere on the screen, with a movable 
 - Uses "util.h" a header file I made myself!
 
 **Cookie Clicker:**\
-A basic text based cookie clicker esc, game.
+A basic text based cookie clicker esc, game.\
+To run this program you are gonna need a compiler like g++\
+You can get that Here: https://www.msys2.org/
 - When you run it for the first time, it prompts you for a "Bakery Name".
 - Because it uses a save.json that it places inside the %appdata% folder, it saves the program's data in real time, so you can load it back up with your saved data!
 - Use space or left mouse button for clicking to earn money
