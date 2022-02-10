@@ -1,0 +1,512 @@
+{
+    "pokemon": [
+        {
+            "name": "Bulbasaur",
+            "species": "Seed Pokemon",
+            "type": {
+                "primary": "grass",
+                "secondary": "poison"
+            },
+            "canEvolve": true,
+            "evolveLvl": 16,
+            "baseStats": {
+                "health": 45,
+                "attack": 49,
+                "defense": 49,
+                "speed": 45
+            },
+            "baseExp": 64
+        },
+        {
+            "name": "Ivysaur",
+            "species": "Seed Pokemon",
+            "type": {
+                "primary": "grass",
+                "secondary": "poison"
+            },
+            "canEvolve": true,
+            "evolveLvl": 36,
+            "baseStats": {
+                "health": 60,
+                "attack": 62,
+                "defense": 63,
+                "speed": 60
+            },
+            "baseExp": 142
+        },
+        {
+            "name": "Venasaur",
+            "species": "Seed Pokemon",
+            "type": {
+                "primary": "grass",
+                "secondary": "poison"
+            },
+            "canEvolve": false,
+            "evolveLvl": 36,
+            "baseStats": {
+                "health": 80,
+                "attack": 82,
+                "defense": 83,
+                "speed": 80
+            },
+            "baseExp": 236
+        },
+        {
+            "name": "Charmander",
+            "species": "Lizard Pokemon",
+            "type": {
+                "primary": "fire",
+                "secondary": "none"
+            },
+            "canEvolve": true,
+            "evolveLvl": 16,
+            "baseStats": {
+                "health": 39,
+                "attack": 52,
+                "defense": 43,
+                "speed": 65
+            },
+            "baseExp": 62
+        },
+        {
+            "name": "Charmeleon",
+            "species": "Lizard Pokemon",
+            "type": {
+                "primary": "fire",
+                "secondary": "none"
+            },
+            "canEvolve": true,
+            "evolveLvl": 36,
+            "baseStats": {
+                "health": 58,
+                "attack": 64,
+                "defense": 58,
+                "speed": 80
+            },
+            "baseExp": 142
+        },
+        {
+            "name": "Charizard",
+            "species": "Lizard Pokemon",
+            "type": {
+                "primary": "fire",
+                "secondary": "flying"
+            },
+            "canEvolve": false,
+            "evolveLvl": 36,
+            "baseStats": {
+                "health": 78,
+                "attack": 84,
+                "defense": 78,
+                "speed": 100
+            },
+            "baseExp": 240
+        },
+        {
+            "name": "Squirtle",
+            "species": "Turtle Pokemon",
+            "type": {
+                "primary": "water",
+                "secondary": "none"
+            },
+            "canEvolve": true,
+            "evolveLvl": 16,
+            "baseStats": {
+                "health": 44,
+                "attack": 48,
+                "defense": 65,
+                "speed": 43
+            },
+            "baseExp": 63
+        },
+        {
+            "name": "Wartortle",
+            "species": "Turtle Pokemon",
+            "type": {
+                "primary": "water",
+                "secondary": "none"
+            },
+            "canEvolve": true,
+            "evolveLvl": 36,
+            "baseStats": {
+                "health": 59,
+                "attack": 63,
+                "defense": 80,
+                "speed": 58
+            },
+            "baseExp": 142
+        },
+        {
+            "name": "Blastoise",
+            "species": "Turtle Pokemon",
+            "type": {
+                "primary": "water",
+                "secondary": "none"
+            },
+            "canEvolve": false,
+            "evolveLvl": 36,
+            "baseStats": {
+                "health": 79,
+                "attack": 83,
+                "defense": 100,
+                "speed": 78
+            },
+            "baseExp": 239
+        }
+    ],
+    "move": {
+        "tackle": {
+            "power": 35,
+            "accuracy": 95,
+            "maxPowerPoints": 35,
+            "type":"normal",
+            "effect": "damage"
+        },
+        "leech_seed": {
+            "power": 0,
+            "accuracy": 90,
+            "maxPowerPoints": 20,
+            "type": "grass",
+            "effect": "life_steal"
+        },
+        "vine_whip": {
+            "power": 35,
+            "accuracy": 100,
+            "maxPowerPoints": 20,
+            "type": "grass",
+            "effect": "damage"
+        },
+        "poison_powder": {
+            "power": 0,
+            "accuracy": 75,
+            "maxPowerPoints": 40,
+            "type": "poison",
+            "effect": "poison"
+        }
+    },
+    "type": {
+        "normal": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 1,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 2,
+            "poison": 1,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 1,
+            "ghost": 0,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "fire": {
+            "normal": 1,
+            "fire": 0.5,
+            "water": 2,
+            "grass": 0.5,
+            "electric": 1,
+            "ice": 0.5,
+            "fighting": 1,
+            "poison": 1,
+            "ground": 2,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 0.5,
+            "rock": 2,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 0.5
+        },
+        "water": {
+            "normal": 1,
+            "fire": 0.5,
+            "water": 0.5,
+            "grass": 2,
+            "electric": 2,
+            "ice": 0.5,
+            "fighting": 1,
+            "poison": 1,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 1,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 0.5
+        },
+        "grass": {
+            "normal": 1,
+            "fire": 2,
+            "water": 0.5,
+            "grass": 0.5,
+            "electric": 0.5,
+            "ice": 2,
+            "fighting": 1,
+            "poison": 2,
+            "ground": 0.5,
+            "flying": 2,
+            "psycic": 1,
+            "bug": 2,
+            "rock": 1,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "electric": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 1,
+            "electric": 0.5,
+            "ice": 1,
+            "fighting": 1,
+            "poison": 1,
+            "ground": 2,
+            "flying": 0.5,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 1,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "ice": {
+            "normal": 1,
+            "fire": 2,
+            "water": 1,
+            "grass": 1,
+            "electric": 1,
+            "ice": 0.5,
+            "fighting": 2,
+            "poison": 1,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 2,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 2
+        },
+        "fighting": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 1,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 1,
+            "poison": 1,
+            "ground": 1,
+            "flying": 2,
+            "psycic": 2,
+            "bug": 0.5,
+            "rock": 0.5,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 0.5,
+            "steel": 1
+        },
+        "poison": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 0.5,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 0.5,
+            "poison": 0.5,
+            "ground": 2,
+            "flying": 1,
+            "psycic": 2,
+            "bug": 0.5,
+            "rock": 1,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "ground": {
+            "normal": 1,
+            "fire": 1,
+            "water": 2,
+            "grass": 2,
+            "electric": 0,
+            "ice": 2,
+            "fighting": 1,
+            "poison": 0.5,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 0.5,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "flying": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 0.5,
+            "electric": 2,
+            "ice": 2,
+            "fighting": 0.5,
+            "poison": 1,
+            "ground": 0,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 0.5,
+            "rock": 2,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "psycic": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 1,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 0.5,
+            "poison": 1,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 0.5,
+            "bug": 2,
+            "rock": 1,
+            "ghost": 2,
+            "dragon": 1,
+            "dark": 2,
+            "steel": 1
+        },
+        "bug": {
+            "normal": 1,
+            "fire": 2,
+            "water": 1,
+            "grass": 0.5,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 0.5,
+            "poison": 1,
+            "ground": 0.5,
+            "flying": 2,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 2,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 1
+        },
+        "rock": {
+            "normal": 0.5,
+            "fire": 0.5,
+            "water": 2,
+            "grass": 2,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 2,
+            "poison": 0.5,
+            "ground": 2,
+            "flying": 0.5,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 1,
+            "ghost": 1,
+            "dragon": 1,
+            "dark": 1,
+            "steel": 2
+        },
+        "ghost": {
+            "normal": 0,
+            "fire": 1,
+            "water": 1,
+            "grass": 1,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 0,
+            "poison": 0.5,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 0.5,
+            "rock": 1,
+            "ghost": 2,
+            "dragon": 1,
+            "dark": 2,
+            "steel": 1
+        },
+        "dragon": {
+            "normal": 1,
+            "fire": 0.5,
+            "water": 0.5,
+            "grass": 0.5,
+            "electric": 0.5,
+            "ice": 2,
+            "fighting": 1,
+            "poison": 1,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 1,
+            "bug": 1,
+            "rock": 1,
+            "ghost": 1,
+            "dragon": 2,
+            "dark": 1,
+            "steel": 1
+        },
+        "dark": {
+            "normal": 1,
+            "fire": 1,
+            "water": 1,
+            "grass": 1,
+            "electric": 1,
+            "ice": 1,
+            "fighting": 2,
+            "poison": 1,
+            "ground": 1,
+            "flying": 1,
+            "psycic": 0,
+            "bug": 2,
+            "rock": 1,
+            "ghost": 0.5,
+            "dragon": 1,
+            "dark": 0.5,
+            "steel": 1
+        },
+        "steel": {
+            "normal": 0.5,
+            "fire": 2,
+            "water": 1,
+            "grass": 0.5,
+            "electric": 1,
+            "ice": 0.5,
+            "fighting": 2,
+            "poison": 0,
+            "ground": 2,
+            "flying": 0.5,
+            "psycic": 0.5,
+            "bug": 0.5,
+            "rock": 0.5,
+            "ghost": 0.5,
+            "dragon": 0.5,
+            "dark": 0.5,
+            "steel": 0.5
+        }
+    }
+}
