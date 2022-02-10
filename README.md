@@ -21,3 +21,7 @@ You can get that Here: https://www.msys2.org/
 - Use space or left mouse button for clicking to earn money
 - 1-6 number keys to purchase the different items for sale.
 - Press q to quit the program
+
+**Pokemon Fire Red**\
+The beginning of my journey to recreate Pokemon Fire Red in C++
+ - Comments will be added soon!
