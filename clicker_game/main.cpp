@@ -19,6 +19,7 @@ class shopItem {
         void purchaseItem(int);
         shopItem(long double, long double);
 };
+// this is a test
 
 string name = "";
 bool space = false;
