@@ -20,6 +20,7 @@ class shopItem {
         shopItem(long double, long double);
 };
 // this is a test
+//test2
 
 string name = "";
 bool space = false;
